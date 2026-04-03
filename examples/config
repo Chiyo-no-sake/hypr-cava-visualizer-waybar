@@ -1,0 +1,18 @@
+# hypr-cava-visualizer-waybar configuration
+# Place this file at ~/.config/hypr-cava-visualizer-waybar/config
+# All values are optional — sensible defaults are used if omitted.
+# Environment variables override values set here.
+
+# Command to launch the visualizer (auto-detected from PATH if not set)
+# VISUALIZER_CMD=hypr-cava-visualizer
+
+# Process name used for pgrep/pkill (default: hypr-cava-visualizer)
+# PROCESS_NAME=hypr-cava-visualizer
+
+# Icons shown in Waybar (default: 󰓃 for both)
+# ICON_ON=󰓃
+# ICON_OFF=󰓃
+
+# Tooltip text
+# TOOLTIP_ON=Visualizer: ON
+# TOOLTIP_OFF=Visualizer: OFF

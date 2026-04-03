@@ -1,0 +1,15 @@
+/* Add to your Waybar stylesheet (typically ~/.config/waybar/style.css) */
+
+#custom-visualizer {
+    font-size: 16px;
+    padding: 0 8px;
+    margin: 0 4px;
+}
+
+#custom-visualizer.on {
+    color: #a6e3a1;  /* green when active */
+}
+
+#custom-visualizer.off {
+    color: #6c7086;  /* dim when inactive */
+}

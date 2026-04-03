@@ -1,0 +1,16 @@
+// Add this module to your Waybar config (typically ~/.config/waybar/config.jsonc)
+//
+// 1. Add "custom/visualizer" to your "modules-right" (or left/center) array
+// 2. Add the module definition below
+
+{
+    "modules-right": ["custom/visualizer"],
+
+    "custom/visualizer": {
+        "exec": "visualizer-toggle status",
+        "on-click": "visualizer-toggle toggle",
+        "return-type": "json",
+        "interval": 5,
+        "tooltip": true
+    }
+}
